@@ -82,6 +82,23 @@ On va apprendre à :
 - positionner des éléments
 - gérer nos premières collisions.
   
+## 2021/01/18
+  
+### Étude des tableaux 04 et 05
+
+- les groupes d'étoiles
+- les groupes de plateformes
+- extend de tableau (de scene sur le plan technique)
+- les collisions de groupe
+- les mouvements de décor en tilesprite
+- introdution aux tweens
+
+### à la maison
+
+- mise en ligne du projet via github
+- évangélistes création de la listes des projets
+
+
 
 
 
