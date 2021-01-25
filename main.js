@@ -16,15 +16,16 @@ let config = {
     scene: [
         new Ui(),
 
+        new Tableau06("Un monstre!"),
+        new Tableau07("Un monstre volant!"),
+        new Tableau08("Un plateau qui sort du cadre"),
         new Tableau00("Des étoiles"),
         new Tableau01("Des plateformes"),
         new Tableau02("Plein d'étoiles"),
         new Tableau03("Des plateformes qui bougent"),
         new Tableau04("Jouer avec les groupes"),
         new Tableau05("Extend un tableau"),
-        new Tableau06("Un monstre!"),
-        new Tableau07("Un monstre volant!"),
-        new Tableau08("Un plateau qui sort du cadre"),
+
 
     ],
     width: width,
