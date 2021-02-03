@@ -131,7 +131,7 @@ class Tableau extends Phaser.Scene{
             ){
                 ui.gagne();
                 monster.isDead=true; //ok le monstre est mort
-                monster.visible=false;
+                monster.disableBody(true,true);//plus de collisions
                 this.saigne(monster,function(){
                     //à la fin de la petite anim...ben il se passe rien :)
                 })
