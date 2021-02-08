@@ -10,12 +10,13 @@ let config = {
         default: 'arcade',
         arcade: {
             gravity: { y: 100*3 },
-            debug: false,
+            debug: true,
         }
     },
     scene: [
         new Ui(),
 
+        new TableauBirdSpriteJson("Un oiseau! "),
         new Tableau06("Un monstre!"),
         new Tableau07("Un monstre volant!"),
         new Tableau08("Un plateau qui sort du cadre"),
