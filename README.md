@@ -132,6 +132,13 @@ Je ne noterai pas le design par contre (ce sera dans d'autres cours) vous avez l
 ...on mettra nos monstres dans des objets de manière à pouvoir les réutiliser facilement sur tous nos tableaux
 
 
+## 2021/03/08
+
+### Tiled
+
+Comment se servir de Tiled, un petit logiciel qui permet de designer des levels et de les importer dans Phaser (entre autre).
+
+
 
 
 
