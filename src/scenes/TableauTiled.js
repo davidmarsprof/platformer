@@ -148,6 +148,7 @@ class TableauTiled extends Tableau{
         this.player.setDepth(20)
         this.devant.setDepth(21);
         this.stars.setDepth(22);
+        this.blood.setDepth(50);
         //pour tous les monstres...
         for(let m of monsters){
             m.setDepth(30);

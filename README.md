@@ -127,12 +127,38 @@ On va apprendre à :
 Je noterai sur la base de 5 points (5 monstres) chaque monstre doit avoir un design et un comportement différent.
 Je ne noterai pas le design par contre (ce sera dans d'autres cours) vous avez le droit de piquer des images sur le web.
 
-#### le cours suivant...
 
-...on mettra nos monstres dans des objets de manière à pouvoir les réutiliser facilement sur tous nos tableaux
+
+
+## 2021/02/01
+
+- Factorisation de monstres en classes
+
+
+
+
+## 2021/02/08
+
+- Les décors en parallaxe
+
+
+
+
+## 2021/03/01
+
+- Le parallaxe
+- Les équilibrages de propriétés physiques
+- Pratique
+
+
 
 
 ## 2021/03/08
+
+### Point sur les projets de fin d'année
+
+- quelles compétences acquérir?
+- quelles compétences verront nous en cours et quelles compétences vous apprendrez par vous-même? 
 
 ### Tiled
 
