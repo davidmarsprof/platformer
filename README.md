@@ -158,7 +158,7 @@ Je ne noterai pas le design par contre (ce sera dans d'autres cours) vous avez l
 ### Point sur les projets de fin d'année
 
 - quelles compétences acquérir?
-- quelles compétences verront nous en cours et quelles compétences vous apprendrez par vous-même? 
+- quelles compétences verrons-nous en cours et quelles compétences vous apprendrez par vous-même ? 
 
 ### Tiled
 
