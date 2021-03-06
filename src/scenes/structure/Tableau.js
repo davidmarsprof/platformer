@@ -39,7 +39,7 @@ class Tableau extends Phaser.Scene{
          * @type {Player}
          */
         this.player=new Player(this,0,0);
-
+        this.player.setMaxVelocity(800,800); //évite que le player quand il tombe ne traverse des plateformes
         this.blood=this.add.sprite(this.sys.canvas.width/2,this.sys.canvas.height/2,"blood")
         this.blood.displayWidth=64;
         this.blood.displayHeight=64;
@@ -139,24 +139,33 @@ class Tableau extends Phaser.Scene{
                 player.directionY=500;
             }else{
                 //le joueur est mort
-                if(!me.player.isDead){
-                    me.player.isDead=true;
-                    me.player.visible=false;
-                    //ça saigne...
-                    me.saigne(me.player,function(){
-                        //à la fin de la petite anim, on relance le jeu
-                        me.blood.visible=false;
-                        me.player.anims.play('turn');
-                        me.player.isDead=false;
-                        me.scene.restart();
-                    })
-
-                }
-
-
+                me.playerDie();
             }
         }
 
+    }
+
+    /**
+     * Tue le player
+     * - le rend invisible
+     * - fait apparaitre du sang
+     * - ressuscite le player
+     * - redémarre le tableau
+     */
+    playerDie(){
+        let me=this;
+        if(!me.player.isDead) {
+            me.player.isDead = true;
+            me.player.visible = false;
+            //ça saigne...
+            me.saigne(me.player, function () {
+                //à la fin de la petite anim, on relance le jeu
+                me.blood.visible = false;
+                me.player.anims.play('turn');
+                me.player.isDead = false;
+                me.scene.restart();
+            })
+        }
     }
 
     /**
