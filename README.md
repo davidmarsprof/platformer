@@ -112,17 +112,17 @@ On va apprendre à :
 - on va s'inspirer du monstre violet (Tableau06) pour créer notre propre monstre
 - puis un second monstre avec design et comportement différent...à vous de jouer!
 
-#### si on a le temps...
+#### Si on a le temps...
 
 - on va rapidement jeter un oeil au Tableau07
-   - quel est l'intérêt de créer des objets?
-    - comment créer des objets réutilisables?
+   - quel est l'intérêt de créer des objets ?
+   - comment créer des objets réutilisables ?
     
-### à la maison
+### À la maison
 
 - peuplez votre zoo de 5 monstres différents
 - mettez en ligne pour vendredi 29
-   - votre (ou vos scènes de zoo) doivent être accéssibles dès le lancement du jeu
+   - votre (ou vos scènes de zoo) doivent être accessibles dès le lancement du jeu
     
 Je noterai sur la base de 5 points (5 monstres) chaque monstre doit avoir un design et un comportement différent.
 Je ne noterai pas le design par contre (ce sera dans d'autres cours) vous avez le droit de piquer des images sur le web.
@@ -157,7 +157,7 @@ Je ne noterai pas le design par contre (ce sera dans d'autres cours) vous avez l
 
 ### Point sur les projets de fin d'année
 
-- quelles compétences acquérir?
+- quelles compétences acquérir ?
 - quelles compétences verrons-nous en cours et quelles compétences vous apprendrez par vous-même ? 
 
 ### Tiled
