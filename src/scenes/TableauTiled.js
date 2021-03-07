@@ -95,55 +95,58 @@ class TableauTiled extends Tableau{
 
 
         let laveFxContainer=this.add.container();
-        this.lave.forEachTile(function(tile){ //on boucle sur TOUTES les tiles de lave pour générer des particules
-            if(tile.index !== -1){ //uniquement pour les tiles remplies
+        if(!this.isMobile){
+            this.lave.forEachTile(function(tile){ //on boucle sur TOUTES les tiles de lave pour générer des particules
+                if(tile.index !== -1){ //uniquement pour les tiles remplies
 
-                /*
-                //dé-commenter pour mieux comprendre ce qui se passe
-                console.log("lave tile",tile.index,tile);
-                let g=ici.add.graphics();
-                laveFxContainer.add(g);
-                g.setPosition(tile.pixelX,tile.pixelY)
-                g.lineStyle(1,0xFF0000);
-                g.strokeRect(0, 0, 64, 64);
-                */
+                    /*
+                    //dé-commenter pour mieux comprendre ce qui se passe
+                    console.log("lave tile",tile.index,tile);
+                    let g=ici.add.graphics();
+                    laveFxContainer.add(g);
+                    g.setPosition(tile.pixelX,tile.pixelY)
+                    g.lineStyle(1,0xFF0000);
+                    g.strokeRect(0, 0, 64, 64);
+                    */
 
-                let props={
-                    frame: [
-                        //'star', //pour afficher aussi des étoiles
-                        'death-white'
-                    ],
-                    frequency:200,
-                    lifespan: 2000,
-                    quantity:2,
-                    x:{min:-32,max:32},
-                    y:{min:-12,max:52},
-                    tint:[  0xC11A05,0x883333,0xBB5500,0xFF7F27 ],
-                    rotate: {min:-10,max:10},
-                    speedX: { min: -10, max: 10 },
-                    speedY: { min: -20, max: -30 },
-                    scale: {start: 0, end: 1},
-                    alpha: { start: 1, end: 0 },
-                    blendMode: Phaser.BlendModes.MULTIPLY,
-                };
-                let props2={...props}; //copie props sans props 2
-                props2.blendMode=Phaser.BlendModes.ADD; // un autre blend mode plus lumineux
+                    let props={
+                        frame: [
+                            //'star', //pour afficher aussi des étoiles
+                            'death-white'
+                        ],
+                        frequency:200,
+                        lifespan: 2000,
+                        quantity:2,
+                        x:{min:-32,max:32},
+                        y:{min:-12,max:52},
+                        tint:[  0xC11A05,0x883333,0xBB5500,0xFF7F27 ],
+                        rotate: {min:-10,max:10},
+                        speedX: { min: -10, max: 10 },
+                        speedY: { min: -20, max: -30 },
+                        scale: {start: 0, end: 1},
+                        alpha: { start: 1, end: 0 },
+                        blendMode: Phaser.BlendModes.MULTIPLY,
+                    };
+                    let props2={...props}; //copie props sans props 2
+                    props2.blendMode=Phaser.BlendModes.ADD; // un autre blend mode plus lumineux
 
-                //ok tout est prêt...ajoute nos particules
-                let laveParticles = ici.add.particles('particles');
-                laveParticles.createEmitter(props); //ajoute le premier lot
-                laveParticles.createEmitter(props2); // ajoute le second
-                // positionne le tout au niveau de la tile
-                laveParticles.x=tile.pixelX+32;
-                laveParticles.y=tile.pixelY+32;
-                laveFxContainer.add(laveParticles);
+                    //ok tout est prêt...ajoute nos particules
+                    let laveParticles = ici.add.particles('particles');
+                    laveParticles.createEmitter(props); //ajoute le premier lot
+                    laveParticles.createEmitter(props2); // ajoute le second
+                    // positionne le tout au niveau de la tile
+                    laveParticles.x=tile.pixelX+32;
+                    laveParticles.y=tile.pixelY+32;
+                    laveFxContainer.add(laveParticles);
 
-            }
-
-
+                }
 
 
-        })
+
+
+            })
+        }
+
 
         //--------allez on se fait un peu la même mais avec les étoiles----------
 
