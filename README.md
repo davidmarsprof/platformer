@@ -164,6 +164,13 @@ Je ne noterai pas le design par contre (ce sera dans d'autres cours) vous avez l
 
 Comment se servir de Tiled, un petit logiciel qui permet de designer des levels et de les importer dans Phaser (entre autre).
 
+### Les Particules
+
+- les blend modes
+- les emitters
+- texture packer et atlas
+
+
 
 
 
