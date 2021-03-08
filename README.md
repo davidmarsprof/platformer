@@ -173,6 +173,13 @@ Ce tableau va évoluer au fil du temps, il y a déjà beaucoup de notions à ce 
 
 Comment se servir de [Tiled](https://thorbjorn.itch.io/tiled), un petit logiciel qui permet de designer des levels et de les importer dans Phaser (entre autre).
 
+Ce cours est grandement inspiré de ce tuto:
+https://stackabuse.com/phaser-3-and-tiled-building-a-platformer/
+
+Quand vous aurez acquis ces notions de base et bien compris le workflow, je vous invite à plonger dans ce tuto plus avancé, vous y découvrirez des alternatives interessantes... ou non en fonction de vos objectifs.
+https://medium.com/@michaelwesthadley/modular-game-worlds-in-phaser-3-tilemaps-1-958fc7e6bbd6
+
+
 #### Tiled config & layers
 
 - Télécharger [Tiled](https://thorbjorn.itch.io/tiled)
