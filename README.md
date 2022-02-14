@@ -1,25 +1,4 @@
-# On va travailler sur un Platformer
-
-
-
-
-
-
-## 2021/01/04
-
-Pour ce premier cours on attaque avec la partie la plus fastidieuse...désolé :grimacing:
-
-- [Phaser](https://phaser.io/) **3** (j'insiste sur le 3) c'est quoi?
-- Canvas & WEBGL c'est quoi?
-- [Installation de Phaser](https://phaser.io/tutorials/getting-started-phaser3)
-- Localhost c'est quoi?
-- Installation d'un serveur web local [XAMPP](https://www.apachefriends.org/fr/index.html)
-- hello world!
-- Essayons de modifier le code pour voir comment ça réagit
-- Regardons un peu [la doc du framework](https://photonstorm.github.io/phaser3-docs/)...
-- Essayons quelques [exemples](https://phaser.io/examples)
-
-## 2021/01/11
+## 1
 
 On rentre dans le vif du sujet, on attaque notre platfomer.
 
@@ -82,7 +61,7 @@ On va apprendre à :
 - positionner des éléments
 - gérer nos premières collisions.
   
-## 2021/01/18
+## 2
   
 ### Étude des tableaux 04 et 05
 
@@ -99,7 +78,7 @@ On va apprendre à :
 - évangélistes création de la listes des projets
 
 
-## 2021/01/25
+## 3
 
 ### Étude des tableaux 06 et 07
 
@@ -130,21 +109,16 @@ Je ne noterai pas le design par contre (ce sera dans d'autres cours) vous avez l
 
 
 
-## 2021/02/01
+## 4
 
 - Factorisation de monstres en classes
 
-
-
-
-## 2021/02/08
+## 5
 
 - Les décors en parallaxe
 
 
-
-
-## 2021/03/01
+## 6
 
 - Le parallaxe
 - Les équilibrages de propriétés physiques
@@ -153,7 +127,7 @@ Je ne noterai pas le design par contre (ce sera dans d'autres cours) vous avez l
 
 
 
-## 2021/03/08 & 2021/03/15
+## 7
 
 ### Point sur les projets de fin d'année
 
